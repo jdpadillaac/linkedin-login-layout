@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/sigIn"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/sigIn_child"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <include layout="@layout/sigin_header" />
+
+        <include layout="@layout/sigin_title" />
+
+        <include layout="@layout/sigin_form" />
+
+        <include layout="@layout/sigin_rememberme" />
+
+        <include layout="@layout/sigin_forgot_password" />
+
+        <include  layout="@layout/sigin_continue_button"/>
+
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

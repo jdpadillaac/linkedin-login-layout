@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">linkedin-login-layout</string>
+    <string name="join_now">Unirse ahora</string>
+    <string name="login_title">Iniciar sesión</string>
+    <string name="hint_email">Email o teléfono</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="remember_word">Recordarme</string>
+    <string name="more_information">Mas información</string>
+    <string name="forgot_password">¿Has olvidado tu contraseña?</string>
+    <string name="sigin_button_label">Continuar</string>
+    <string name="google_sigiN">Iniciar sesión con google</string>
 </resources>

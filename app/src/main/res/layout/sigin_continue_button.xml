@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/sigIn_form_buttons"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/spacing_lg"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/roundstyle"
+        android:backgroundTint="@color/app_blue"
+        android:text="@string/sigin_button_label"
+        android:textColor="@color/white" />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="@dimen/spacing_md"
+        android:layout_marginBottom="@dimen/spacing_md"
+        android:background="@color/app_light_gray" />
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/dsfasdfasdf"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:icon="@drawable/google_logo"
+       app:iconGravity="textStart"
+        app:iconSize="@dimen/spacing_lg"
+        android:padding="@dimen/spacing_md"
+        android:text="@string/google_sigiN"
+        app:cornerRadius="@dimen/spacing_lg">
+
+
+
+    </com.google.android.material.button.MaterialButton>
+
+
+</LinearLayout>
+
+
